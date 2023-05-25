@@ -1,12 +1,12 @@
 {
   "keyboard": "corne",
   "keymap": "corne",
-  "layout": "unknown",
+  "layout": "corneonmars",
   "layer_names": [
     "default",
     "lower",
     "raise",
-    "Layer #3"
+    "upper"
   ],
   "layers": [
     [
