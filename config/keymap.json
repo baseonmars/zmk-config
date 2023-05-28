@@ -1,7 +1,7 @@
 {
-  "keyboard": "corne",
-  "keymap": "corne",
-  "layout": "unknown",
+  "keyboard": "corne_v3",
+  "keymap": "corne_v3",
+  "layout": "baseonmars",
   "layer_names": [
     "default",
     "lower",
