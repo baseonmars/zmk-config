@@ -25,6 +25,8 @@
 &kp LCTRL  &kp Z  &kp X     &kp C  &kp V      &kp B      &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
                          &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2   &kp RALT
             >;
+
+            label = "ALPHA";
         };
 
         layer_lower {
@@ -34,6 +36,8 @@
  &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD      &trans    &trans    &trans     &trans  &trans         &trans
                                                   &kp LGUI           &trans        &kp SPACE     &kp RET  &kp RCMD  &kp RALT
             >;
+
+            label = "NUM";
         };
 
         layer_raise {
@@ -43,15 +47,19 @@
  &trans    &trans  &trans    &trans    &trans     &trans    &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE      &kp TILDE
                            &kp LGUI     &mo 3  &kp SPACE      &kp RET     &trans           &trans
             >;
+
+            label = "SYMBOL";
         };
 
         layer_upper {
             bindings = <
-&kp ESCAPE        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BACKSPACE
-    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans   &trans         &trans
-    &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans   &trans         &trans
-                                              &trans        &trans        &trans    &trans   &mo 4  &trans
+&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp BACKSPACE
+    &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans         &trans
+    &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans         &trans
+                            &trans  &trans  &trans    &trans   &mo 4  &trans
             >;
+
+            label = "FUNC";
         };
 
         bluetooth {
