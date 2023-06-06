@@ -31,10 +31,10 @@
 
         layer_lower {
             bindings = <
-&kp ESC           &kp N1           &kp N2           &kp N3           &kp N4           &kp N5      &kp N6    &kp N7    &kp N8     &kp N9  &kp N0  &kp BACKSPACE
- &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT  &trans        &kp DEL
- &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD      &trans    &trans    &trans     &trans  &trans         &trans
-                                                  &kp LGUI           &trans        &kp SPACE     &kp RET  &kp RCMD  &kp RALT
+&kp ESC  &kp N1        &kp N2    &kp N3  &kp N4     &kp N5            &kp N6    &kp N7          &kp N8           &kp N9  &kp N0  &kp BACKSPACE
+ &trans  &kp N4        &kp N5    &kp N6  &kp N0      &none          &kp LEFT  &kp DOWN          &kp UP        &kp RIGHT  &trans        &kp DEL
+ &trans  &kp N7  &kp NUMBER_8    &kp N9  &kp N0      &none    &kp UNDERSCORE  &kp PLUS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans         &trans
+                               &kp LGUI  &trans  &kp SPACE           &kp RET  &kp RCMD        &kp RALT
             >;
 
             label = "NUM";
@@ -67,10 +67,21 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
     &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
     &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                              &trans        &trans        &trans    &trans  &trans  &trans
+                                              &trans         &mo 5        &trans    &trans  &trans  &trans
             >;
 
             label = "BT";
+        };
+
+        RGB {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans           &trans             &trans           &trans           &trans           &trans           &trans  &trans
+&trans  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI    &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &trans
+&trans  &rgb_ug RGB_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD    &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_TOG  &trans
+                                                   &trans           &trans           &trans             &trans            &mo 5           &trans
+            >;
+
+            label = "RGB";
         };
     };
 };
