@@ -8,12 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_CORNE_V3_LEFT || SHIELD_CORNE_V3_RIGHT
-
-config ZMK_SPLIT
-    default y
-
-if ZMK_DISPLAY
+# always config display on
 
 config I2C
     default y
@@ -24,7 +19,23 @@ config SSD1306
 config SSD1306_REVERSE_MODE
     default y
 
-endif # ZMK_DISPLAY
+if SHIELD_CORNE_V3_LEFT || SHIELD_CORNE_V3_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+#if ZMK_DISPLAY
+#
+#config I2C
+#    default y
+#
+#config SSD1306
+#    default y
+#
+#config SSD1306_REVERSE_MODE
+#    default y
+#
+#endif # ZMK_DISPLAY
 
 if LVGL
 
