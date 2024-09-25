@@ -26,7 +26,7 @@
                          &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2   &kp RALT
             >;
 
-            label = "ALPHA";
+            display-name = "ALPHA";
         };
 
         layer_lower {
@@ -37,7 +37,7 @@
                                &kp LGUI  &trans  &kp SPACE           &kp RET  &kp RCMD        &kp RALT
             >;
 
-            label = "NUM";
+            display-name = "NUM";
         };
 
         layer_raise {
@@ -48,7 +48,7 @@
                            &kp LGUI     &mo 3  &kp SPACE      &kp RET     &trans           &trans
             >;
 
-            label = "SYMBOL";
+            display-name = "SYMBOL";
         };
 
         layer_upper {
@@ -59,7 +59,7 @@
                             &trans  &trans  &trans    &trans   &mo 4  &trans
             >;
 
-            label = "FUNC";
+            display-name = "FUNC";
         };
 
         bluetooth {
@@ -70,7 +70,7 @@
                                               &trans         &mo 5        &trans    &trans  &trans  &trans
             >;
 
-            label = "BT";
+            display-name = "BT";
         };
 
         RGB {
@@ -81,7 +81,7 @@
                                                    &trans           &trans           &trans             &trans            &mo 5           &trans
             >;
 
-            label = "RGB";
+            display-name = "RGB";
         };
     };
 };
