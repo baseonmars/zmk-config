@@ -31,8 +31,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_SPACE";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
             flavor = "balanced";
             bindings = <&mo>, <&kp>;
         };
@@ -41,9 +41,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_RETURN";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
-            flavor = "balanced";
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
+            flavor = "hold-preferred";
             bindings = <&mo>, <&kp>;
         };
 
