@@ -105,7 +105,7 @@
 
         layer_raise {
             bindings = <
-&kp ESC  &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET   &kp AMPS   &kp KP_MULTIPLY  &kp LPAR &kp RPAR  &kp BACKSPACE
+&kp ESC  &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET   &kp AMPS   &kp KP_MULTIPLY  &kp LPAR &kp RPAR  &kp DEL
  &trans    &trans  &kp LPAR &kp RPAR  &kp LBKT  &kp RBKT     &kp MINUS   &kp EQUAL  &trans           &trans   &kp BSLH  &kp GRAVE
  &trans    &trans  &trans   &trans    &kp LBRC  &kp RBRC     &kp UNDER   &kp PLUS   &trans           &trans   &kp PIPE  &kp TILDE
                            &kp LGUI     &mo 3     &trans         &trans     &trans           &trans
